@@ -9,10 +9,6 @@ class MusicLibraryController
     MusicImporter.new(path).import
   end 
   
-  def start 
-    list_songs
-  end
-  
   def call 
     puts "Welcome to your music library!"
     puts "To list all of your songs, enter 'list songs'."
